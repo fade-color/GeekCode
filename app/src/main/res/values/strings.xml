@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GeekCode</string>
+    <string name="register_hint"><u>没有账号？注册一个</u></string>
+</resources>

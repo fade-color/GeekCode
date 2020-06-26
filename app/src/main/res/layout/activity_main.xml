@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite"
+    tools:context=".Activity.HomeActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite"
+        android:paddingTop="9dp">
+
+        <RadioButton
+            android:id="@+id/rb_examination"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="题库"
+            android:textSize="12sp"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_examination"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/rb_status"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="状态"
+            android:textSize="12sp"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_status"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/rb_rank"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="排名"
+            android:textSize="12sp"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_rank"
+            android:gravity="center" />
+
+        <RadioButton
+            android:id="@+id/rb_personal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="我的"
+            android:textSize="12sp"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_personal"
+            android:gravity="center" />
+
+    </RadioGroup>
+
+</LinearLayout>

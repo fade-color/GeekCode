@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_title_font_size">20sp</dimen>
+    <dimen name="font_normal">16sp</dimen>
+    <dimen name="font_title">20sp</dimen>
+    <dimen name="corner_normal">5dp</dimen>
+    <dimen name="btn_corner_size">25dp</dimen>
+    <dimen name="action_bar_font">18dp</dimen>
+</resources>
